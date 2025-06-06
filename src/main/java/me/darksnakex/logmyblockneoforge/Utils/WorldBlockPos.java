@@ -1,4 +1,4 @@
-package me.darksnakex.blocktracker.Utils;
+package me.darksnakex.logmyblockneoforge.Utils;
 
 import net.minecraft.core.BlockPos;
 

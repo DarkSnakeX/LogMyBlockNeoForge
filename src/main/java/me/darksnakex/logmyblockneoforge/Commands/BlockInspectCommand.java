@@ -1,4 +1,4 @@
-package me.darksnakex.blocktracker.Commands;
+package me.darksnakex.logmyblockneoforge.Commands;
 
 import com.mojang.brigadier.CommandDispatcher;
 import com.mojang.brigadier.context.CommandContext;
@@ -10,7 +10,7 @@ import java.util.HashSet;
 import java.util.Set;
 import java.util.UUID;
 
-import static me.darksnakex.blocktracker.Logmyblock.prefix;
+import static me.darksnakex.logmyblockneoforge.LogMyBlockNeoForge.prefix;
 
 public class BlockInspectCommand {
 

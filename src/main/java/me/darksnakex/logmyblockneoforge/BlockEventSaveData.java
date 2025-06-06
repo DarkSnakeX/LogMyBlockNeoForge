@@ -1,7 +1,7 @@
-package me.darksnakex.blocktracker;
+package me.darksnakex.logmyblockneoforge;
 
 import com.google.gson.*;
-import me.darksnakex.blocktracker.Utils.WorldBlockPos;
+import me.darksnakex.logmyblockneoforge.Utils.WorldBlockPos;
 
 import java.io.*;
 import java.time.Instant;
@@ -11,8 +11,8 @@ import java.util.Map;
 
 
 import static com.mojang.text2speech.Narrator.LOGGER;
-import static me.darksnakex.blocktracker.Events.BlockEventHandler.blockEventMap;
-import static me.darksnakex.blocktracker.Events.BlockEventHandler.blockEventTimes;
+import static me.darksnakex.logmyblockneoforge.Events.BlockEventHandler.blockEventMap;
+import static me.darksnakex.logmyblockneoforge.Events.BlockEventHandler.blockEventTimes;
 
 public class BlockEventSaveData {
 

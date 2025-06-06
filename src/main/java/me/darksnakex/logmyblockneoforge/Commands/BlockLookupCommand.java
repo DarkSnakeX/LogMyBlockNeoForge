@@ -1,9 +1,9 @@
-package me.darksnakex.blocktracker.Commands;
+package me.darksnakex.logmyblockneoforge.Commands;
 
 import com.mojang.brigadier.CommandDispatcher;
 import com.mojang.brigadier.arguments.IntegerArgumentType;
 import com.mojang.brigadier.context.CommandContext;
-import me.darksnakex.blocktracker.Utils.WorldBlockPos;
+import me.darksnakex.logmyblockneoforge.Utils.WorldBlockPos;
 import net.minecraft.commands.CommandSourceStack;
 import net.minecraft.commands.Commands;
 import net.minecraft.core.BlockPos;
@@ -13,9 +13,9 @@ import net.minecraft.server.level.ServerLevel;
 import java.util.List;
 import java.util.Objects;
 
-import static me.darksnakex.blocktracker.Events.BlockEventHandler.getBlockHistory;
-import static me.darksnakex.blocktracker.Events.BlockEventHandler.readHistory;
-import static me.darksnakex.blocktracker.Logmyblock.prefix;
+import static me.darksnakex.logmyblockneoforge.Events.BlockEventHandler.getBlockHistory;
+import static me.darksnakex.logmyblockneoforge.Events.BlockEventHandler.readHistory;
+import static me.darksnakex.logmyblockneoforge.LogMyBlockNeoForge.prefix;
 
 public class BlockLookupCommand {
 
