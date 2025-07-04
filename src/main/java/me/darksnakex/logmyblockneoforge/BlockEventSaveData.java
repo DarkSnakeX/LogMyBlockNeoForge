@@ -10,9 +10,9 @@ import java.util.List;
 import java.util.Map;
 
 
-import static com.mojang.text2speech.Narrator.LOGGER;
 import static me.darksnakex.logmyblockneoforge.Events.BlockEventHandler.blockEventMap;
 import static me.darksnakex.logmyblockneoforge.Events.BlockEventHandler.blockEventTimes;
+import static me.darksnakex.logmyblockneoforge.LogMyBlockNeoForge.LOGGER;
 
 public class BlockEventSaveData {
 

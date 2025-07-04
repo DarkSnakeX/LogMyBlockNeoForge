@@ -1,6 +1,7 @@
 package me.darksnakex.logmyblockneoforge;
 
 import com.mojang.brigadier.CommandDispatcher;
+import com.mojang.logging.LogUtils;
 import me.darksnakex.logmyblockneoforge.Commands.BlockInspectCommand;
 import me.darksnakex.logmyblockneoforge.Commands.BlockLookupCommand;
 import me.darksnakex.logmyblockneoforge.Events.BlockEventHandler;
@@ -11,6 +12,7 @@ import net.neoforged.fml.common.Mod;
 import net.neoforged.neoforge.event.RegisterCommandsEvent;
 import net.neoforged.neoforge.event.server.ServerStartedEvent;
 import net.neoforged.neoforge.event.server.ServerStoppingEvent;
+import org.slf4j.Logger;
 
 import static me.darksnakex.logmyblockneoforge.BlockEventSaveData.loadBlockEvents;
 import static me.darksnakex.logmyblockneoforge.BlockEventSaveData.saveBlockEvents;
@@ -22,6 +24,7 @@ public class LogMyBlockNeoForge
 {
     public static String prefix = "§e[§3Log§aMy§6Block§e] §f";
     public static final String MODID = "logmyblockneoforge";
+    public static final Logger LOGGER = LogUtils.getLogger();
 
     public LogMyBlockNeoForge(){
         EVENT_BUS.register(new BlockEventHandler());
