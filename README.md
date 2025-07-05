@@ -1,3 +1,11 @@
+## 🔒 LogMyBlock - Archived
+
+> **⚠️ This repository has been archived and is no longer maintained.**  
+> Development has moved to a new repository:  
+> 👉 [LogMyBlockNeoForge](https://github.com/DarkSnakeX/LogMyBlockNeoForge)
+
+---
+
 ## LogMyBlock - Minecraft Block Logging Mod
 LogMyBlock is a server-side mod designed for server administrators who want to keep a detailed log of interactions with blocks in Minecraft. The mod tracks all player actions related to specific blocks, including interactions, right-clicks, the removal of items from chests, etc. It’s an essential tool for server management, especially in situations where monitoring player activity is crucial for preventing cheating or simply keeping track of block-related events.
 
