@@ -1,4 +1,4 @@
-name: Build Mod
+name: Build Mod with multi
 
 on:
   push:
